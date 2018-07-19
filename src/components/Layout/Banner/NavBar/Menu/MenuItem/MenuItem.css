@@ -1,0 +1,38 @@
+.menuitem{
+    margin: 10px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.menuitem a{
+    color: white;  
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 20px;
+}
+
+.menuitem a:hover,
+.menuitem a:active,
+.menuitem a:active {
+    color: orangered;
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 100px) {
+    .menuitem {
+        margin: 0;
+        display: none;
+      width: auto;
+      height: 100%;
+      align-items:center;
+    }
+
+    .menuitem {
+    color: white;
+    height: 100%;
+    padding: 15px 10px;
+    border-bottom: 4px solid transparent;
+    }
+  }

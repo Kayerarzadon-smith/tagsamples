@@ -1,0 +1,22 @@
+.footerlogo img{
+    height: 50px;
+}
+
+.footerlogo{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 40px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+}
+
+.footerlogo p{
+    text-align:center;
+    color: white;
+}
+

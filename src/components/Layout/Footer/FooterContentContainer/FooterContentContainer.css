@@ -1,0 +1,19 @@
+.footercontentcontainer {
+    width: 50%;
+    height: 250px;
+    margin:auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 600px) and (min-width: 100px) {
+    .footercontentcontainer{
+      width: auto;
+      height: 95%;
+      margin: auto;
+    }
+  }

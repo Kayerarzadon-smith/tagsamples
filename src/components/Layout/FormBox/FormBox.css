@@ -1,0 +1,22 @@
+.formbox {
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    overflow: scroll;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+@media screen and (max-width: 600px) and (min-width: 100px) {
+    .formbox{
+      width: auto;
+      height: auto;
+      padding: 20px;
+      margin: auto;
+      background-color: White;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+  }

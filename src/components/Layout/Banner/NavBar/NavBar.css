@@ -1,0 +1,13 @@
+.navbar{
+    width:300px;
+    height: 65px;
+    background: navy;
+    float: right;
+}
+
+@media screen and (max-width: 900px) and (min-width: 100px) {
+    .navbar{
+      width: 150px;
+      height: 100px;
+    }
+  }
